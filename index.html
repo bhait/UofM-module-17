@@ -6,16 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="images/index.css">
 </head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(104, 103, 103);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  border-right: solid 1px white;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(66, 66, 66);}
+
+.active {
+  background-color: #04AA6D;}
+
+</style>
 <body>
-    <p>
-    This is my webpage</p>
-
-
-
-
-
-
-
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#diet">Diet</a></li>
+        <li><a href="#habitat">Habitat</a></li>
+      </ul>  
+    <br>
+    
+    <div class="separator">
+        <img src="images/Maltese-Shih-Tzu-1.jpeg" alt="Frankie" width="40%" class="left">
+        <h1>This is Frankie</h1>
+        <p>
+          Lorem ipsum dolor sit amet, 
+        </p>
+    </div>  
+     
 </body>
 </html>
